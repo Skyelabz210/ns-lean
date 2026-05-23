@@ -9,7 +9,7 @@
     T4 ← T1,T2,T3,A1–A6  (continuum bridge: curve of infinite descent)
 -/
 import NSTorus.Lemmas
-import Mathlib.Topology.Algebra.WeakDualTopology
+import Mathlib.Topology.Algebra.Module.WeakDual
 import Mathlib.Analysis.Calculus.MeanValue
 
 namespace NSTorus

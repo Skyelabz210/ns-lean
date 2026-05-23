@@ -10,9 +10,9 @@
   D-030: ‖ω‖_∞ ≤ (p - 1) + √E(0)    (unconditional discrete bound)
 -/
 
-import Mathlib.Data.Int.Basic
+import Mathlib.Data.Int.Defs
 import Mathlib.Data.Fintype.Basic
-import Mathlib.Algebra.BigOperators.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset
 import NSTorus.Definitions
 
 namespace NSTorus

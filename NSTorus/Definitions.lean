@@ -5,7 +5,7 @@
   Blueprint DAG: depend on Axioms; feed into Lemmas.
 -/
 import NSTorus.Axioms
-import Mathlib.Analysis.NormedSpace.Basic
+import Mathlib.Analysis.Normed.Group.Basic
 import Mathlib.MeasureTheory.Function.L2Space
 
 namespace NSTorus

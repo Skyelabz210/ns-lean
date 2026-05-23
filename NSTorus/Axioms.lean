@@ -7,10 +7,13 @@
 
   Blueprint DAG: root nodes — all lemmas/theorems depend on subsets here.
 -/
-import Mathlib.Algebra.Order.Ring.Lemmas
-import Mathlib.Data.Int.Order
+import Mathlib.Algebra.Order.Ring.Defs
+import Mathlib.Data.Int.Defs
+import Mathlib.Algebra.BigOperators.Group.Finset
 
 namespace NSTorus
+
+open BigOperators
 
 variable (N : ℕ) [NeZero N]
 
